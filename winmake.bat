@@ -9,7 +9,6 @@ if [%1]==[install] goto :INSTALL
 if [%1]==[uninstall] goto :UNINSTALL
 if [%1]==[clean] goto :CLEAN
 goto :ALL
-goto :DONE
 
 :ALL
 	goto :BUILD
